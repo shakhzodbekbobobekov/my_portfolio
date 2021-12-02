@@ -1,0 +1,187 @@
+ body {
+  font-family: sans-serif;
+}
+
+.container {
+  width: 1140px;
+  margin: 0 auto;
+}
+
+.to-uppercase {
+  text-transform: uppercase;
+}
+
+.clearfix {
+  clear: both;
+}
+
+.main-header_brand {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.main-header_brand img {
+  width: 64px;
+}
+
+.main-navigation {
+  display: inline-block;
+  vertical-align: middle ;
+}
+
+.main-navigation__item {
+  display: inline-block;
+  padding: 5px ;
+}
+
+.main-navigation__item a {
+  color: #05364d;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.main-navigation__item a:hover{
+  color: #efb6df;
+}
+
+.main-section{
+  padding: 100px 30px;
+}
+
+.main-section > div {
+  width: 50%;
+  float: left;
+}
+
+.main-section__image {
+  text-align: center;
+}
+
+.main-section__welcome {
+  font-size:16px;
+  font-weight: 400;
+  margin-bottom: 20px;
+  letter-spacing: 2px;
+  color: #797979;
+}
+
+.main-section__introduction {
+  margin-top: 20px;
+  font-size: 60px;
+  font-weight: 500;
+  margin-bottom: 20px;
+  color: #05364d;
+}
+
+.main-section__position {
+  color: #05364d;
+  font-size: 24px;
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+
+.main-section__action {
+  margin-top: 30px;
+}
+
+/* statitics */
+
+.statistics {
+  padding-top: 100px;
+
+}
+
+.statistics__item {
+  display: inline-block;
+  width: 150px;
+  background-color: #f8faff;
+  text-align: center;
+  padding: 5px 10px ;
+  margin-right: 20px;
+}
+
+.statistics__number {
+  font-size: 27px;
+  margin-bottom: 5px;
+  color: #1C44E4;
+}
+
+.statistics__title {
+  font-size: 16px;
+  font-weight: 300;
+  color: #797979;
+} 
+
+.button {
+  border: none;
+  background-color: #1C44E4;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 20px 40px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+
+/* About me  */
+
+.about-me {
+  padding: 100px 0;
+}
+
+.about-me > div {
+  width: 50%;
+  float: left;
+}
+
+.about-me__image {
+  width: 90%;
+}
+
+.section-subtitle {
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  font-weight: 500;
+  color: #797979;
+}
+
+.section-title {
+  font-size: 42px;
+  font-weight: 700;
+  text-transform: capitalize;
+  color: #053640;
+  margin-top: 5px;
+}
+
+.blur-line {
+  display: inline-block;
+  margin-left: 5px;
+  width: 80px;
+  height: 4px;
+  background-color:rgba(237, 35, 159, 0.6);
+  filter: blur(4px);
+  border-radius: 5px;
+}
+
+.about-me__description {
+  font-size: 17px;
+  font-weight: 300;
+  color: #797979;
+  line-height: 27px;
+}
+
+.about-me__action {
+  margin-top: 40px;
+}
+
+
+
+
+
+
+
+
